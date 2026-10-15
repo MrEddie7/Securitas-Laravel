@@ -1,17 +1,16 @@
 <p align="center">
-  <strong style="font-size: 1.6rem">VeiculoTracker · Securitas</strong><br>
-  Site institucional + painel do grupo — TCC Laravel Breeze
+  <strong style="font-size: 1.6rem">Securitas</strong><br>
+  TCC Laravel Breeze
 </p>
 
 ---
 
-Este é o **segundo aplicativo** do TCC: um site em **Laravel 13 + Breeze (Blade/Tailwind)**
+Este é o **Aplicativo não vinculado ao Projeto principal** do TCC: um site em **Laravel 13 + Breeze (Blade/Tailwind)**
 com autenticação completa (login, registro, recuperação de senha, dashboard) e as
 telas do projeto descritas a partir do Figma.
 
 > Na página inicial (landing) e no dashboard são exibidos **todos os dados do TCC**
 > vindos do banco: a **equipe** (usuários), a **frota** (veículos) e os **protótipos**
-> das telas do aplicativo. **CRUD ainda não implementado** — é a próxima etapa do grupo.
 
 ---
 
@@ -102,20 +101,20 @@ Dados populados via seeder: **6 usuários**, **12 veículos** (placas Mercosul, 
 
 ## Mapeamento para o TCC
 
-- ✅ **Segunda aplicação + Laravel Breeze** — scaffold oficial com autenticação
-- ✅ **Tailwind** — front compilado com Vite
-- ✅ **Welcome customizada** — nome do projeto, especificações, tecnologias
-- ✅ **Dashboard com protótipos** — telas do Figma/Visily renderizadas do banco
-- ✅ **Imagens reais dos protótipos** — capturas em `public/img/prototipos/` (visíveis na landing e no dashboard)
-- ✅ **Seeder com ≥ 10 registros** — 12 veículos + 12 protótipos + 6 usuários
-- ⏳ **CRUD** — próximo passo do grupo (veículos, rotas, protótipos)
-
+-  **Segunda aplicação + Laravel Breeze** — scaffold oficial com autenticação
+-  **Tailwind** — front compilado com Vite
+-  **Welcome customizada** — nome do projeto, especificações, tecnologias
+-  **Dashboard com protótipos** — telas do Figma/Visily renderizadas do banco
+-  **Imagens reais dos protótipos** — capturas em `public/img/prototipos/` (visíveis na landing e no dashboard)
+-  **Seeder com ≥ 10 registros** — 12 veículos + 12 protótipos + 6 usuários
+**NENHUM VEICULO OU USUARIO ESTÃO LIGADOS AO FIREBASE OU AO PROJETO OFICIAL**
+ 
 ## Créditos
 
 **Eduardo Cavalcante** foi o responsável por **toda a estruturação do projeto**, incluindo:
 
 - **Telas do Figma/Visily** — prototipação e estruturação de todas as telas do aplicativo;
-- **Aplicativo (VeiculoTracker)** — estruturação completa do aplicativo;
+- **Aplicativo (Securitas)** — estruturação completa do aplicativo;
 - **Banco de dados** — modelagem, migrations, seeders e factories;
 - **Laravel Breeze** — implementação completa da autenticação (login, registro, recuperação de senha, painel);
 - **Front-End** — landing page, dashboard e views em Blade/Tailwind;
