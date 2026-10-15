@@ -112,4 +112,12 @@ Dados populados via seeder: **6 usuários**, **12 veículos** (placas Mercosul, 
 
 ## Créditos
 
-**Eduardo Cavalcante** foi responsável por **toda a estruturação das telas (Figma/Visily)**, pelo **aplicativo VeiculoTracker**, pela **modelagem e estruturação do banco de dados**, além de **todas as informações do TCC**. Também ficou responsável por toda a implementação com **Laravel Breeze**, pela estruturação completa do **banco de dados**, pelo **Front-End**, pelo **Back-End** e pela organização/integração de **todas as informações do projeto**.
+**Eduardo Cavalcante** foi o responsável por **toda a estruturação do projeto**, incluindo:
+
+- **Telas do Figma/Visily** — prototipação e estruturação de todas as telas do aplicativo;
+- **Aplicativo (VeiculoTracker)** — estruturação completa do aplicativo;
+- **Banco de dados** — modelagem, migrations, seeders e factories;
+- **Laravel Breeze** — implementação completa da autenticação (login, registro, recuperação de senha, painel);
+- **Front-End** — landing page, dashboard e views em Blade/Tailwind;
+- **Back-End** — rotas, controllers, models e integração com o banco;
+- **Informações do TCC** — organização de todas as informações, especificações e documentação do trabalho.
