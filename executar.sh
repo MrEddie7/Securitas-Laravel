@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # =============================================================================
-# VeiculoTracker (TCC) — script de execução completa
+# Securitas (TCC) — script de execução completa
 #
 # O que ele faz, nesta ordem:
 #   1. Verifica pré-requisitos (PHP 8.2+, Composer, Node/npm)
@@ -116,6 +116,6 @@ ok "Assets compilados em public/build"
 log "Servidor em http://$HOST:$PORT"
 echo
 echo "   Landing page:  http://$HOST:$PORT/"
-echo "   Painel:        http://$HOST:$PORT/dashboard  (login: admin@tcc.com / veiculotracker123)"
+echo "   Painel:        http://$HOST:$PORT/dashboard  (login: admin@tcc.com / securitas123)"
 echo
 php artisan serve --host="$HOST" --port="$PORT"

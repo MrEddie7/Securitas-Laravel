@@ -1,6 +1,10 @@
 <p align="center">
   <strong style="font-size: 1.6rem">Securitas</strong><br>
+<<<<<<< Updated upstream
   TCC Laravel Breeze
+=======
+  Site institucional + painel do grupo — TCC Laravel Breeze
+>>>>>>> Stashed changes
 </p>
 
 
@@ -66,7 +70,7 @@ php artisan serve
 
 ## Contas criadas pelo seeder
 
-Todas com a senha **`veiculotracker123`**:
+Todas com a senha **`securitas123`**:
 
 | Papel | E-mail |
 |-------|--------|
@@ -89,7 +93,7 @@ Dados populados via seeder: **6 usuários**, **12 veículos** (placas Mercosul, 
 | `database/migrations/` | `vehicles`, `prototype_screens`, `role` em `users` |
 | `app/Models/` | `Vehicle`, `PrototypeScreen`, `User` com `role` |
 | `database/factories/` | Factories de `Vehicle` e `PrototypeScreen` |
-| `.env` / `.env.example` | `APP_NAME="VeiculoTracker"`, `DB_CONNECTION=sqlite` |
+| `.env` / `.env.example` | `APP_NAME="Securitas"`, `DB_CONNECTION=sqlite` |
 | `php-ext/sqlite.ini` | Carrega `pdo_sqlite`/`sqlite3` quando a distro não habilita |
 
 ## Rotas
