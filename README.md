@@ -1,10 +1,5 @@
 <p align="center">
   <strong style="font-size: 1.6rem">Securitas</strong><br>
-<<<<<<< Updated upstream
-  TCC Laravel Breeze
-=======
-  Site institucional + painel do grupo — TCC Laravel Breeze
->>>>>>> Stashed changes
 </p>
 
 
